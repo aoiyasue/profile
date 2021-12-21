@@ -1,0 +1,31 @@
+img {
+  width:  180px;       
+    height: 180px;   
+    border-radius: 50%;
+    border: 4px solid burlywood;
+}
+body {
+  width: 500px; 
+  text-align: center;
+}
+section {
+  border: 4px solid pink;
+  border-radius: 16px;
+  padding: 16px 0;
+  margin-bottom: 16px;
+  background-image: url(anise_spices_seeds_sprockets_aroma_mulled_wine_seasoning_food-1362676.jpg!s1);
+  /* 透過度0.8の白でやや背景を明るくします。 */
+/* background-blend-mode:lightenは簡単に言うと「少し明るめに」です。 */
+  background-color:rgba(255,255,255,0.5);
+  background-blend-mode:lighten;
+}
+section h1 {
+  margin: 0 0;
+}
+section p {
+  font-weight: 800;
+  margin: 0 0;
+}
+footer {
+  font-size: 8px;
+}
